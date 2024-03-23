@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 function Meal({ strMeal, strMealThumb, idMeal }) {
 	return (
 		<div className='card'>
-			<div className='card__img'>
-				<img
-					src={strMealThumb ? strMealThumb : 'https://placehold.co/320x200?text=No+image'}
-					alt={strMeal}
-				/>
-			</div>
+			<Link to={`/meal/${idMeal}`}>
+				<div className='card__img'>
+					<img
+						src={strMealThumb ? strMealThumb : 'https://placehold.co/320x200?text=No+image'}
+						alt={strMeal}
+					/>
+				</div>
+			</Link>
+
 			<div className='card__info'>
 				<h2 className='card__title'>{strMeal}</h2>
 				<div className='card__action'>

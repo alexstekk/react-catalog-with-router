@@ -13,8 +13,10 @@ function Home() {
 	const navigate = useNavigate();
 
 	const handleSearch = (query) => {
-		setFilteredCatalog(catalog.filter((item) => item.strCategory.toLowerCase().includes(query.toLowerCase())));
-		navigate({ pathname, search: `?search=${query}` });
+		if (query) {
+			setFilteredCatalog(catalog.filter((item) => item.strCategory.toLowerCase().includes(query.toLowerCase())));
+			navigate({ pathname, search: `?search=${query}` });
+		}
 	};
 
 	useEffect(() => {

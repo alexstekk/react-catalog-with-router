@@ -187,3 +187,56 @@ a:hover {
 .search__button {
 	border-radius: 0 5px 5px 0;
 }
+.recipe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem 0;
+	gap: 2rem;
+}
+.recipe__image {
+}
+.recipe__image img {
+	max-width: 100%;
+}
+.recipe__title {
+}
+.recipe__additional-info {
+	padding: 1rem 0;
+	display: flex;
+	gap: 1rem;
+}
+.recipe__instruction {
+}
+.recipe__table {
+	text-align: center;
+	padding: 1rem 0;
+}
+.table-recipe {
+	width: 100%;
+	display: grid;
+	gap: 0.5rem;
+	justify-content: center;
+}
+.table-recipe__title {
+	display: grid;
+	grid-template-columns: repeat(2, 20rem);
+	font-weight: 700;
+}
+
+.table-recipe__body > div {
+	display: grid;
+	grid-template-columns: repeat(2, 20rem);
+	transition: all 0.3s ease-in-out 0s;
+	padding: 0.5rem 0;
+}
+
+.table-recipe__body {
+	display: grid;
+	gap: 0.5rem;
+}
+.recipe__video {
+	text-align: center;
+	display: grid;
+	gap: 1rem;
+}
