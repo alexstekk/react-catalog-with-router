@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-catalog-with-router/static/css/main.4fe67c00.css",
+    "main.js": "/react-catalog-with-router/static/js/main.50f13ed5.js",
+    "static/media/preloader.svg": "/react-catalog-with-router/static/media/preloader.df9c3eaa77840ddb012284d30dd57ad1.svg",
+    "index.html": "/react-catalog-with-router/index.html",
+    "main.4fe67c00.css.map": "/react-catalog-with-router/static/css/main.4fe67c00.css.map",
+    "main.50f13ed5.js.map": "/react-catalog-with-router/static/js/main.50f13ed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fe67c00.css",
+    "static/js/main.50f13ed5.js"
+  ]
+}
