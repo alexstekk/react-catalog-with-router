@@ -16,7 +16,7 @@ function Meal({ strMeal, strMealThumb, idMeal }) {
 						to={`/meal/${idMeal}`}
 						className='card__button btn'
 					>
-						View reciepe
+						View recipe
 					</Link>
 				</div>
 			</div>

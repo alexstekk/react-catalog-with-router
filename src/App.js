@@ -2,7 +2,8 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Category } from './components/Category';
+import { Category } from './pages/Category';
+import { Recipe } from './pages/Recipe';
 
 function App() {
 	return (
@@ -19,6 +20,10 @@ function App() {
 						<Route
 							path='/category/:name'
 							element={<Category />}
+						/>
+						<Route
+							path='/meal/:idMeal'
+							element={<Recipe />}
 						/>
 					</Routes>
 				</div>
