@@ -7,7 +7,7 @@ import { Recipe } from './pages/Recipe';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/react-catalog-with-router'>
 			<Header />
 
 			<main className='main'>
